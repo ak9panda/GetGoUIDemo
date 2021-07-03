@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		84DBF3E6269036FB00063DDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DBF3E5269036FB00063DDC /* AppDelegate.swift */; };
-		84DBF3E8269036FB00063DDC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DBF3E7269036FB00063DDC /* SceneDelegate.swift */; };
-		84DBF3EA269036FB00063DDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DBF3E9269036FB00063DDC /* ViewController.swift */; };
 		84DBF3ED269036FB00063DDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DBF3EB269036FB00063DDC /* Main.storyboard */; };
 		84DBF3EF2690370100063DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DBF3EE2690370100063DDC /* Assets.xcassets */; };
 		84DBF3F22690370100063DDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DBF3F02690370100063DDC /* LaunchScreen.storyboard */; };
 		84DBF3FD2690370200063DDC /* GetGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DBF3FC2690370200063DDC /* GetGoTests.swift */; };
 		84DBF4082690370200063DDC /* GetGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DBF4072690370200063DDC /* GetGoUITests.swift */; };
+		84DBF4162690466700063DDC /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DBF4152690466700063DDC /* UIViewExtension.swift */; };
+		84DBF418269046D000063DDC /* RentACarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DBF417269046D000063DDC /* RentACarViewController.swift */; };
+		84DBF41A26904D4600063DDC /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DBF41926904D4600063DDC /* Colors.xcassets */; };
+		84DBF41C26904FD600063DDC /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DBF41B26904FD600063DDC /* SearchResultsViewController.swift */; };
+		84DBF41E26904FF200063DDC /* BookingDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DBF41D26904FF200063DDC /* BookingDetailViewController.swift */; };
+		84DBF421269061A900063DDC /* carsideview.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DBF420269061A900063DDC /* carsideview.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +41,6 @@
 /* Begin PBXFileReference section */
 		84DBF3E2269036FB00063DDC /* GetGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DBF3E5269036FB00063DDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84DBF3E7269036FB00063DDC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84DBF3E9269036FB00063DDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84DBF3EC269036FB00063DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84DBF3EE2690370100063DDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84DBF3F12690370100063DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,12 @@
 		84DBF4032690370200063DDC /* GetGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DBF4072690370200063DDC /* GetGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetGoUITests.swift; sourceTree = "<group>"; };
 		84DBF4092690370200063DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DBF4152690466700063DDC /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		84DBF417269046D000063DDC /* RentACarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentACarViewController.swift; sourceTree = "<group>"; };
+		84DBF41926904D4600063DDC /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		84DBF41B26904FD600063DDC /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		84DBF41D26904FF200063DDC /* BookingDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingDetailViewController.swift; sourceTree = "<group>"; };
+		84DBF420269061A900063DDC /* carsideview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carsideview.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +107,17 @@
 		84DBF3E4269036FB00063DDC /* GetGo */ = {
 			isa = PBXGroup;
 			children = (
+				84DBF41F2690619800063DDC /* images */,
 				84DBF3E5269036FB00063DDC /* AppDelegate.swift */,
-				84DBF3E7269036FB00063DDC /* SceneDelegate.swift */,
-				84DBF3E9269036FB00063DDC /* ViewController.swift */,
 				84DBF3EB269036FB00063DDC /* Main.storyboard */,
 				84DBF3EE2690370100063DDC /* Assets.xcassets */,
 				84DBF3F02690370100063DDC /* LaunchScreen.storyboard */,
 				84DBF3F32690370100063DDC /* Info.plist */,
+				84DBF4152690466700063DDC /* UIViewExtension.swift */,
+				84DBF417269046D000063DDC /* RentACarViewController.swift */,
+				84DBF41926904D4600063DDC /* Colors.xcassets */,
+				84DBF41B26904FD600063DDC /* SearchResultsViewController.swift */,
+				84DBF41D26904FF200063DDC /* BookingDetailViewController.swift */,
 			);
 			path = GetGo;
 			sourceTree = "<group>";
@@ -126,6 +138,14 @@
 				84DBF4092690370200063DDC /* Info.plist */,
 			);
 			path = GetGoUITests;
+			sourceTree = "<group>";
+		};
+		84DBF41F2690619800063DDC /* images */ = {
+			isa = PBXGroup;
+			children = (
+				84DBF420269061A900063DDC /* carsideview.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +251,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DBF421269061A900063DDC /* carsideview.png in Resources */,
 				84DBF3F22690370100063DDC /* LaunchScreen.storyboard in Resources */,
+				84DBF41A26904D4600063DDC /* Colors.xcassets in Resources */,
 				84DBF3EF2690370100063DDC /* Assets.xcassets in Resources */,
 				84DBF3ED269036FB00063DDC /* Main.storyboard in Resources */,
 			);
@@ -258,9 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84DBF3EA269036FB00063DDC /* ViewController.swift in Sources */,
+				84DBF418269046D000063DDC /* RentACarViewController.swift in Sources */,
+				84DBF41E26904FF200063DDC /* BookingDetailViewController.swift in Sources */,
+				84DBF41C26904FD600063DDC /* SearchResultsViewController.swift in Sources */,
+				84DBF4162690466700063DDC /* UIViewExtension.swift in Sources */,
 				84DBF3E6269036FB00063DDC /* AppDelegate.swift in Sources */,
-				84DBF3E8269036FB00063DDC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
